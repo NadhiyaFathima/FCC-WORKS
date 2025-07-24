@@ -1,0 +1,80 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Workshop Survey</h1>
+      <p id="description">Thanks for joining our workshop on <em>Generative AI</em>.We hope you gained hands-on knowledge and a great experience.</p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <fieldset>
+          <legend>Personal Information</legend>
+          
+          <label for="name" id="name-label">Name (required):</label> 
+          <input type="text" id="name" placeholder="Ex:Gabriella" required><br>
+
+          <label for="email" id="email-label">Email Address (required):</label>
+          <input type="email" id="email" placeholder="Gaby@email.com" required><br>
+
+          <label for="phone">Phone Number (required):</label>
+          <input type="tel" id="phone-label" name="number" placeholder="1234567890" required size="10"><br>
+
+          <label for="age" id="number-label">Age (required):</label>
+          <input type="number" id="number" name="age" placeholder="15-60" min="15" max="60" required>
+        </fieldset>
+
+        <h2>Feedback</h2>
+        <fieldset>
+          <legend>How did you hear about this workshop?</legend>
+          <label><input type="radio" name="referral" value="social media" required>Social Media</label><br>
+          <label><input type="radio" name="referral" value="friend" required>Friend</label><br>
+          <label><input type="radio" name="referral" value="college" required>College Notice</label><br>
+        </fieldset>  
+        
+        <fieldset>
+          <legend>How was the workshop?</legend>
+          <label for="teaching">Teaching</label>
+          <select name="teaching" id="dropdown">
+            <option value="poor">Poor</option>
+            <option value="satisfactory">Satisfactory</option>
+            <option value="good">Good</option>
+            <option value="very-good">Very Good</option>
+            <option selected value="excellent">Excellent</option>
+          </select>
+          <label for="understanding">Understanding</label>
+          <select name="understanding" id="understanding">
+            <option value="poor">Poor</option>
+            <option value="satisfactory">Satisfactory</option>
+            <option value="good">Good</option>
+            <option value="very-good">Very Good</option>
+            <option selected value="excellent">Excellent</option>
+          </select>
+        </fieldset> 
+
+        <fieldset>
+          <legend>Would you recommend our workshop to your friends?</legend>
+          <label for="recommend-yes">Yes</label>
+          <input type="checkbox" id="yes" name="yes" value="yes"/>
+          <label for="recommend-no">No</label>
+          <input type="checkbox" id="no" name="no" value="no"/>
+          <label for="recommend-maybe">Maybe</label>
+          <input type="checkbox" id="maybe" name="maybe" value="maybe"/>
+        </fieldset> 
+        
+        <label for="comments">Any suggestions?</label>
+        <textarea cols="30" rows="10" name="comments" id="comments">Tell us your suggestions for us to improve or for new workshops.</textarea>
+      <button type="submit" id="submit">Submit Feedback</button>  
+      </form> 
+    </main>
+  </body>
+</html>
+
+** end of index.html **
+
