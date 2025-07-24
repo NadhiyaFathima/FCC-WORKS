@@ -25,6 +25,12 @@ This one tested my layout and alignment skills big time!
 ### 🎥 Video Compilation Page
 A self-care themed project with embedded YouTube videos using <iframe>. 🧘‍♀💖
 
+### 🏨 Hotel Feedback Form
+A hotel guest feedback form using form inputs and HTML5 validations.
+
+### 🔧 Workshop Survey Form
+A survey form collecting workshop feedback using fieldsets and radio buttons.
+
 ---
 
 
