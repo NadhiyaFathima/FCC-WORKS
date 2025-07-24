@@ -16,10 +16,9 @@ A simple HTML layout to showcase an event (like a fest or workshop), featuring h
 
 ### 🍵 Recipe Page
 A little recipe layout with ingredients and steps for cold coffee, designed using basic HTML.  
-✨ Bonus: I got hungry while coding this.
 
 ### ✈ Travel Agency Page
-A travel-themed homepage layout featuring destinations and offers.  
+A travel-themed homepage layout featuring destinations.  
 This one tested my layout and alignment skills big time!
 
 ### 🎥 Video Compilation Page
