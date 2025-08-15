@@ -41,10 +41,6 @@ A survey form collecting workshop feedback using fieldsets and radio buttons.
 
 ---
 
-## 🌈 What's Next?
-More mini projects coming soon as I complete new challenges and lessons through FreeCodeCamp and beyond 🚀
-
----
 
 > ✨ Thanks for stopping by! Feedback, ideas, or just vibing? Say hi anytime ✨
 
