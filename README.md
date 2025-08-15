@@ -1,6 +1,6 @@
 # FCC-WORKS
 This repo contains practice projects while following FreeCodeCamp. These were done for learning purposes.
-# FCC WORKS 💻✨
+# FCC WORKS 
 
 Welcome to my collection of mini-projects built while learning through **[FreeCodeCamp](https://www.freecodecamp.org/)**!  
 This repo is my personal coding playground — a place to try, fail, learn, and create as I grow my frontend skills.
